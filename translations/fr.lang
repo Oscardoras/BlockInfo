@@ -1,0 +1,5 @@
+at=\ en 
+break=[%arg%] %arg% a cassé 
+by=\ par 
+entries=%arg% entrée(s) trouvée(s)
+place=[%arg%] %arg% a remplacé 
