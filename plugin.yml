@@ -3,7 +3,7 @@ version: 1.0.0
 api-version: 1.13
 description: "Stores and gets informations about who placed and broke blocks."
 author: oscardoras
-main: org.bukkitplugin.blockinfo.BlockInfoPlugin
+main: me.oscardoras.blockinfo.BlockInfoPlugin
 permissions:
   blockinfo:
     default: op

@@ -1,4 +1,4 @@
-package org.bukkitplugin.blockinfo;
+package me.oscardoras.blockinfo;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -28,20 +28,20 @@ import org.bukkit.event.world.ChunkUnloadEvent;
 import org.bukkit.event.world.WorldSaveEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.permissions.Permission;
-import org.bukkitutils.BukkitPlugin;
-import org.bukkitutils.command.v1_15_V1.Argument;
-import org.bukkitutils.command.v1_15_V1.CommandRegister;
-import org.bukkitutils.command.v1_15_V1.LiteralArgument;
-import org.bukkitutils.command.v1_15_V1.CommandRegister.CommandExecutorType;
-import org.bukkitutils.command.v1_15_V1.CommandRegister.PerformedCommand;
-import org.bukkitutils.command.v1_15_V1.arguments.IntegerArgument;
-import org.bukkitutils.command.v1_15_V1.arguments.ItemStackArgument;
-import org.bukkitutils.command.v1_15_V1.arguments.LocationArgument;
-import org.bukkitutils.command.v1_15_V1.arguments.OfflinePlayerArgument;
-import org.bukkitutils.command.v1_15_V1.arguments.LocationArgument.LocationType;
-import org.bukkitutils.io.ConfigurationFile;
-import org.bukkitutils.io.TranslatableMessage;
 
+import me.oscardoras.spigotutils.BukkitPlugin;
+import me.oscardoras.spigotutils.command.v1_16_1_V1.Argument;
+import me.oscardoras.spigotutils.command.v1_16_1_V1.CommandRegister;
+import me.oscardoras.spigotutils.command.v1_16_1_V1.LiteralArgument;
+import me.oscardoras.spigotutils.command.v1_16_1_V1.CommandRegister.CommandExecutorType;
+import me.oscardoras.spigotutils.command.v1_16_1_V1.CommandRegister.PerformedCommand;
+import me.oscardoras.spigotutils.command.v1_16_1_V1.arguments.IntegerArgument;
+import me.oscardoras.spigotutils.command.v1_16_1_V1.arguments.ItemStackArgument;
+import me.oscardoras.spigotutils.command.v1_16_1_V1.arguments.LocationArgument;
+import me.oscardoras.spigotutils.command.v1_16_1_V1.arguments.OfflinePlayerArgument;
+import me.oscardoras.spigotutils.command.v1_16_1_V1.arguments.LocationArgument.LocationType;
+import me.oscardoras.spigotutils.io.ConfigurationFile;
+import me.oscardoras.spigotutils.io.TranslatableMessage;
 import net.md_5.bungee.api.ChatColor;
 import net.md_5.bungee.api.chat.ComponentBuilder;
 
